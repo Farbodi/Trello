@@ -1,0 +1,20 @@
+{% extends "template.html" %}
+{% block content %}
+  <div class="page">
+  <h1>Welcome to my First project.</h1>
+  <h3>Please enter yor organization.</h3>
+  {% if error %}
+    <p class=error><strong>Error:</strong> {{ error }}
+  {% endif %}
+  <form action="" method=post>
+    <dl>
+      <dt>Organization:
+      <dd><input type=text name=organization value="{{
+          request.form.username }}">
+
+    </dl>
+    <p><input type=submit value=Login>
+  </form>
+  <p>Use trello.com to see the name of your organization.
+</div>
+{% endblock %}
