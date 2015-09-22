@@ -5,4 +5,4 @@ note: i use proxychainse because i believe i am blocked from trello server to my
 requirment: 
       flask
       flask-sqlalchemy
-      pip install Flask-OAuth
+      Flask-OAuth
